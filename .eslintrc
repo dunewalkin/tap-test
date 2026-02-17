@@ -1,0 +1,55 @@
+{
+  "root": true,
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "parser": "vue-eslint-parser",
+  "parserOptions": {
+    "parser": "@typescript-eslint/parser"
+  },
+  "extends": [
+    "@nuxtjs/eslint-config-typescript",
+    "plugin:prettier/recommended",
+    "prettier"
+  ],
+  "plugins": [],
+  "rules": {
+    "max-len": ["error", { "code": 88 }],
+    "indent": ["error", 2],
+    "quotes": ["error", "double"],
+    "vue/no-multiple-template-root": 0,
+    "vue/multi-word-component-names": ["off"],
+    "vue/no-async-in-computed-properties": "error",
+    "vue/no-v-html": 0,
+    "vue/no-child-content": "error",
+    "vue/no-unused-vars": "warn",
+    "vue/no-use-v-if-with-v-for": "error",
+    "vue/prefer-separate-static-class": "error",
+    "vue/prefer-true-attribute-shorthand": "warn",
+    "vue/html-self-closing": "off",
+    "vue/html-comment-content-newline": "warn",
+    "vue/html-closing-bracket-newline": [
+      "error",
+      {
+        "singleline": "never",
+        "multiline": "always"
+      }
+    ],
+    "vue/multiline-html-element-content-newline": [
+      "error",
+      {
+        "ignoreWhenEmpty": true,
+        "ignores": ["pre", "textarea"],
+        "allowEmptyLines": false
+      }
+    ],
+    "prettier/prettier": [
+      "warn",
+      {
+        "singleQuote": false,
+        "semi": false
+      }
+    ]
+  }
+}

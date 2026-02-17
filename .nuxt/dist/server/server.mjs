@@ -1,0 +1,1 @@
+export { default } from "file:///Users/dunewalker/Documents/New%20project/node_modules/@nuxt/vite-builder/dist/vite-node-entry.mjs"

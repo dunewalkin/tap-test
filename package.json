@@ -1,0 +1,25 @@
+{
+  "name": "tapir-test-task",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "preview": "nuxt preview",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier . --write",
+    "format:check": "prettier . --check"
+  },
+  "dependencies": {
+    "nuxt": "^4.0.0"
+  },
+  "devDependencies": {
+    "@nuxt/eslint": "^1.9.0",
+    "eslint": "^9.34.0",
+    "prettier": "^3.6.2",
+    "sass-embedded": "^1.93.2",
+    "typescript": "^5.9.2",
+    "vue-tsc": "^3.1.0"
+  }
+}
