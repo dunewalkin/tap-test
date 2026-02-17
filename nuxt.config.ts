@@ -1,18 +1,19 @@
 export default defineNuxtConfig({
-  modules: ['@nuxt/eslint'],
+  modules: ["@nuxt/eslint"],
   devtools: { enabled: false },
-  css: ['~/assets/styles/main.scss'],
+  css: ["~/assets/styles/main.scss"],
   runtimeConfig: {
     public: {
-      productsApiBase: '',
+      productsApiBase: "https://test-task-api.tapir.ws",
     },
   },
-  compatibilityDate: '2025-01-01',
+  compatibilityDate: "2025-01-01",
   vite: {
     css: {
       preprocessorOptions: {
         scss: {
-          additionalData: '@use "~/assets/styles/variables.scss" as *;\n@use "~/assets/styles/mixins.scss" as *;',
+          additionalData:
+            '@use "~/assets/styles/variables.scss" as *;\n@use "~/assets/styles/mixins.scss" as *;',
         },
       },
     },

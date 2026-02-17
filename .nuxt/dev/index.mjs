@@ -647,7 +647,7 @@ const _inlineRuntimeConfig = {
     }
   },
   "public": {
-    "productsApiBase": ""
+    "productsApiBase": "https://test-task-api.tapir.ws"
   }
 };
 const envOptions = {
